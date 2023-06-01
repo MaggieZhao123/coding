@@ -13,30 +13,48 @@
     background-color: #777e60;
     position: relative;
 }
-nav{
-    width:100%;
+#navbar{
+    width: 400px;
+    height: 65px;
     overflow: hidden;
     position:fixed;
     top:0;
+    right: 0;
+    z-index: 999;
 }
-ul{
+#navbarUl{
     padding: 0;
     margin: 0;
     list-style: none;
+    height: 100%;
 }
-li{
-    float: right;
+#navbarUl li{
+      float: left;
+      width: 100px;
+      height: 100%;
+    background-color: none;
 }
-a{
-    padding: 20px;
+
+#navbarUl li:hover{
+  background-color: #8b8b8b70;
+  }
+  
+
+#navbarUl li a{
+
+  position: absolute;
+  top: 20px;
     width: 100px;
-    display: block;
     text-decoration: none;
     color: black;
     font-family: "Trirong",sans-serif;
     font-weight: bold;
     text-align: center;
+    margin: auto;
 }
+
+
+
 img {
     float: right;
     width: 500px;
@@ -143,19 +161,20 @@ color: white;
 
 #popWindow{
   position: absolute;
-  right: 5%;
-  top: 700px;
-  width: 350px;
-  height: 100px;
+  right: 30%;
+  top: 200px;
+  width: 500px;
+  height: 90px;
 
 }
 
 .popImage{
   margin: 0px;
-  margin-left: 5px;
-  border-width: 3px;
-  height: 100px;
-  width: 100px;
+  margin-left: 6px;
+  margin-top: 6px;
+  border-width: 1px;
+  height: 180px;
+  width: 160px;
 
 }
 
@@ -178,7 +197,7 @@ color: white;
 }
 
 .circle{
-  background-color: #d6cbc7;
+  background-color: #444d40;
 }
 
 .circle:hover{
@@ -214,7 +233,7 @@ color: white;
   position: absolute;
   left: 180px;
   top: 515px;
-  width: 130px;
+  width: 250px;
   height: 180px;
 }
 
@@ -227,6 +246,14 @@ color: white;
   border-radius: 40px;
 
 }
+
+#circle2:hover{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+
+}
+
 
 #circleImgDiv2{
   position: absolute;
@@ -247,6 +274,23 @@ color: white;
 
 }
 
+#circle3:hover{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+
+}
+
+
+#circleImgDiv3{
+  position: absolute;
+  left: 920px;
+  top: 720px;
+  width: 150px;
+  height: 190px;
+}
+
+
 #circle4{
   position: absolute;
   left: 980px;
@@ -256,3 +300,100 @@ color: white;
   border-radius: 20px;
 
 }
+
+#circle4:hover{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+
+}
+
+
+#circleImgDiv4{
+  position: absolute;
+  left: 880px;
+  top: 310px;
+  width: 250px;
+  height: 180px;
+}
+
+#circle5{
+  position: absolute;
+  left: 420px;
+  top: 800px;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+
+}
+
+#circle5:hover{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+
+}
+
+
+#circleImgDiv5{
+  position: absolute;
+  left: 160px;
+  top: 590px;
+  width: 230px;
+  height: 310px;
+}
+
+#circle6{
+  position: absolute;
+  left: 1300px;
+  top: 300px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+
+}
+
+#circle6:hover{
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+
+}
+
+
+#circleImgDiv6{
+  position: absolute;
+  left: 1250px;
+  top: 540px;
+  width: 230px;
+  height: 310px;
+}
+
+#circle7{
+  position: absolute;
+  left: 1250px;
+  top: 800px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+
+}
+
+#circle7:hover{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+
+}
+
+
+#circleImgDiv7{
+  position: absolute;
+  left: 1100px;
+  top: 550px;
+  width: 200px;
+  height: 250px;
+}
+
+
+

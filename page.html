@@ -10,16 +10,26 @@
 </head>
 
 <body>
-
+    
     <!-- page one -->
-    <section class="header">
-        <nav>
-            <ul>
-            <li><a href="">Artworks</a></li>
-            <li><a href="">Hobbies</a></li>
-            <li><a href="">Experience</a></li>
-            </ul>
-        </nav>
+    <section class="header" id="page1">
+      <nav id="navbar">
+        <ul id="navbarUl">
+          <li>
+            <a href="#page5">Artworks</a>
+          </li>
+          <li>
+            <a href="#page4">Hobbies</a>
+          </li>
+          <li>
+            <a href="#page2">Experience</a>
+          </li>
+          <li>
+            <a href="#page1">Home</a>
+          </li>
+        </ul>
+      </nav>
+  
         <img src="website 1.jpeg">
         <div class="text-box">  
             <span style="--i:1">Y</span>
@@ -35,14 +45,14 @@
     </section>
 
     <!-- page two -->
-    <section class="main">
+    <section class="main" id="page2">
         <div class="main">
             <marquee class="css1" scrollamount="30" direction="left">YIHAN ZHAO  YIHAN ZHAO  YIHAN ZHAO</marquee>
         </div>
     </section>
 
     <!-- page three -->
-    <section class="hu">
+    <section class="hu" id="page3">
         <div class="hu">
             <div class="hu1">
             <h4>WHO IS YIHAN ZHAO &#129300;</h4>
@@ -52,7 +62,7 @@
     </section>
 
     <!-- page four -->
-    <section class="fu">
+    <section class="fu" id ="page4">
         <div id="fullpage">
             <div class="fu1">
                 <h1>MY HOBBIES</h1>
@@ -69,13 +79,20 @@
               <img src="pop1.jpeg" class="popImage">
               <img src="pop2.jpeg" class="popImage">
               <img src="pop3.jpeg" class="popImage">
+              <img src="pop4.JPG" class="popImage">
+              <img src="pop5.JPG" class="popImage">
+              <img src="pop6.JPEG" class="popImage">
+              <img src="pop7.jpeg" class="popImage">
+              <img src="pop8.jpeg" class="popImage">
+              <img src="pop9.jpeg" class="popImage">
+
             </div>
     
         </div>
     </section>
 
     <!-- page five -->
-    <section class="pageFive">
+    <section class="pageFive" id="page5">
       <div id="pageFive">
         <div id="pageFiveTittle">
           <h1>ARTWORKS</h1>
@@ -89,8 +106,31 @@
           <img class="circleImg" src="circleImg2.png" >
         </div>
 
-        <div class="circle" id="circle3"></div>
-        <div class="circle" id="circle4"></div>
+        <div class="circle" id="circle3" onmouseover="imgHover('circleImgDiv3')" onmouseleave="imgHoverLeave('circleImgDiv3')"></div>
+        <div class="circleImgDiv hidden" id="circleImgDiv3">
+          <img class="circleImg" src="circleImg3.jpg" >
+        </div>
+
+        <div class="circle" id="circle4" onmouseover="imgHover('circleImgDiv4')" onmouseleave="imgHoverLeave('circleImgDiv4')"></div>>
+        <div class="circleImgDiv hidden" id="circleImgDiv4">
+          <img class="circleImg" src="circleImg4.jpg" >
+        </div>
+
+        <div class="circle" id="circle5" onmouseover="imgHover('circleImgDiv5')" onmouseleave="imgHoverLeave('circleImgDiv5')"></div>>
+        <div class="circleImgDiv hidden" id="circleImgDiv5">
+          <img class="circleImg" src="circleImg5.jpg" >
+        </div>
+
+        <div class="circle" id="circle6" onmouseover="imgHover('circleImgDiv6')" onmouseleave="imgHoverLeave('circleImgDiv6')"></div>>
+        <div class="circleImgDiv hidden" id="circleImgDiv6">
+          <img class="circleImg" src="circleImg6.png" >
+        </div>
+
+        <div class="circle" id="circle7" onmouseover="imgHover('circleImgDiv7')" onmouseleave="imgHoverLeave('circleImgDiv7')"></div>>
+        <div class="circleImgDiv hidden" id="circleImgDiv7">
+          <img class="circleImg" src="circleImg7.png" >
+        </div>
+
 
       </div>
   </section>
